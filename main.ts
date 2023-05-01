@@ -68,7 +68,7 @@ basic.forever(function () {
         action = "Z"
     } else {
         comment.comment("DO NOT CHANGE!")
-        wuKong.setMotorSpeed(wuKong.MotorList.M1, yValue + xValue)
-        wuKong.setMotorSpeed(wuKong.MotorList.M2, yValue - xValue)
+        wuKong.setMotorSpeed(wuKong.MotorList.M1, yValue / 2 + xValue / 2)
+        wuKong.setMotorSpeed(wuKong.MotorList.M2, yValue / 2 - xValue / 2)
     }
 })
